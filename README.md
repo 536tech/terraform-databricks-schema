@@ -16,7 +16,7 @@ The resource addresses above are part of the DataTF import contract. Do not rena
 ```hcl
 module "schema" {
   source  = "536tech/schema/databricks"
-  version = "0.1.0"
+  version = "1.0.0"
 
   catalog_name = "sales"
   name         = "bronze"
